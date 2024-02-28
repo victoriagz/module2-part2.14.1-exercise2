@@ -1,0 +1,72 @@
+body {
+    background-image: url('https://lumiere-a.akamaihd.net/v1/images/star-wars-backgrounds-25_bc15ec98.jpeg?download=true');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif; /* Puedes cambiar la fuente si lo deseas */
+    margin: 0;
+    padding: 0;
+
+    /* Animación */
+    animation-name: moveBackground;
+    animation-duration: 30s; /* Duración de la animación en segundos */
+    animation-timing-function: linear; /* Función de temporización lineal para un movimiento uniforme */
+    animation-iteration-count: infinite; /* La animación se repetirá infinitamente */
+}
+
+@keyframes moveBackground {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 0; /* Mueve la imagen completamente hacia la derecha */
+    }
+}
+
+
+
+main {
+    text-align: center;
+    padding-top: 50px; /* Ajusta este valor según tu preferencia */
+}
+
+h1 {
+    color: #ffe81f; /* Amarillo */
+}
+
+input.js-input-search {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ffe81f; /* Amarillo */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button.js-button-search {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffe81f; /* Amarillo */
+    color: #000; /* Negro */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul.list-characters {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul {
+    background-color: azure;
+}
+
+ul.list-characters li {
+    margin-bottom: 10px;
+    background-color: aliceblue;
+}
+
+/* Estilo para las imágenes de los personajes */
+ul.list-characters li img {
+    width: 100px; /* Ajusta el tamaño según tus preferencias */
+    border-radius: 50%; /* Para que las imágenes sean redondas */
+}
