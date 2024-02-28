@@ -1,4 +1,4 @@
-<h1 align="left">Find your favorite Star Wars character</h1>
+<h1 align="center"> 🪐🪐 Find your favorite Star Wars character 🪐🪐</h1>
 
 ###
 
